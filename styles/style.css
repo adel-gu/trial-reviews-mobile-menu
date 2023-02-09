@@ -382,9 +382,9 @@ label {
 /* !! Media Quieries */
 
 /* Small tables and large phones */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
   .container {
-    padding: 2em;
+    padding: 20em;
   }
 
   .section,
@@ -479,7 +479,7 @@ label {
     flex: 1;
     padding-left: 5em;
     padding-right: 3em;
-    background: url("../assets/desktop/dots.svg") no-repeat right bottom;
+    background: url("../assets/desktop/dots.svg") repeat right bottom;
   }
 
   .hero-img {
@@ -735,5 +735,5 @@ label {
 
 .nav-item:hover,
 .nav-item:focus {
-  text-decoration: underline;
+  text-decoration: line-through;
 }
