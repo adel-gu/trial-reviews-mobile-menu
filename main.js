@@ -1,4 +1,4 @@
-const menuBtn = document.querySelector('.menu-btn');
+const menuBtn = document.querySelector('#menu-btn');
 const menuBtnIcons = menuBtn.querySelectorAll('.menu-btn img');
 const menu = document.querySelector('.nav-list');
 const menuLinks = menu.querySelectorAll('.nav-list a');
@@ -32,5 +32,5 @@ function hideMenu() {
 
 menuBtn.addEventListener('click', showMenu);
 menuLinks.forEach((link) => {
-  link.addEventListener('click', hideMenu);
+  link.addEventListener('click', showMenu);
 });
