@@ -29,21 +29,26 @@ After you're finished please remove all the comments and instructions!
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Protfolio <a name="about-project"></a>
 
 This repo is about building my personal protfolio webpage.
 
@@ -104,6 +109,25 @@ Install this project with:
 
 To run the project, navigate to your cloned folder look for the file `index.html` and open it with your prefered browser.
 
+### Run tests
+To run tests, run the following command:
+- Track HTML linter errors run:
+```
+npx hint .
+```
+- Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+- Track JavaScript linter errors run:
+```
+npx eslint .
+```
+- For unit testing, run:
+```
+npm test
+```
+
 ### Deployment
 
 You can deploy this project using github `gh-pages`
@@ -112,11 +136,9 @@ You can deploy this project using github `gh-pages`
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Adel Guitoun**
 
 - GitHub: [@adel-gu](https://github.com/adel-gu)
 - Twitter: [@GuitounAdel](https://twitter.com/GuitounAdel)
@@ -124,7 +146,28 @@ You can deploy this project using github `gh-pages`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## :telescope: Future Features <a name="future-features"></a>
+- [ ] **Implement button to switch sort type (ascending or descending).**
+- [ ] **Implement completed and not-completed routes for completed and non-completed tasks, respectively.**
+- [ ] **Add backend to store tasks.**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FUTURE FEATURES -->
+## :pray: Acknowledgments <a name="acknowledgements"></a>
+- The original design ideal from Microverse:two_hearts:.
+- Project from [Microverse](https://bit.ly/MicroverseTN) HTML/CSS module.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :question: FAQ <a name="faq"></a>
+- **Can I fork and reuse the repository**
+  - Yes please, feel free.
+- **Can I improve the repository, and my changes will be accepted if they are good?**
+  - Yes please, nice ideas are welcome, please.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
