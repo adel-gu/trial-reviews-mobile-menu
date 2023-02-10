@@ -33,4 +33,5 @@ function hideMenu() {
 menuBtn.addEventListener('click', showMenu);
 menuLinks.forEach((link) => {
   link.addEventListener('click', showMenu);
+  hideMenu();
 });
